@@ -5,3 +5,7 @@ body {
 .item img {
 	width: 100%;
 }
+
+.left {
+	background: black;
+}
