@@ -1,5 +1,10 @@
+h1 {
+	font-family: serif;
+	font-size: 2em;
+}
+
 body {
-  background: blue;
+  background: white;
 }
 
 .item img {
