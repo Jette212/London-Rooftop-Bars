@@ -66,15 +66,9 @@
   </div><!-- /.container-fluid -->
 </nav>
 <div class="jumbotron">
-  <h1>Drink London's Top Rooftop Bars</h1>
-  <p>...</p>
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+  <h1>Drink at London's Top Rooftop Bars</h1>
 </div>
-<div class="row">
-  <div class="col-md-6 left"><p>Left</p></div>
-  <div class="col-md-6 right"><p>Right</p></div>
-</div>
-<p>Hello</p>
+
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -139,6 +133,24 @@
   <div class="col-md-6 left"><p>Left</p></div>
   <div class="col-md-6 right"><p>Right</p></div>
 </div>
+<p>Hello</p>
+<h2>Don't Wait! Come and find us...</h2>
+
+<div id="map" style="width:100%;height:300px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 30,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
 
 </body>
 </html>

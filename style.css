@@ -1,6 +1,13 @@
 h1 {
 	font-family: serif;
 	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	border: 7px double #008000;
+	margin-right: 50px;
+	margin-left: 50px;
+
+
 }
 
 body {
@@ -18,4 +25,13 @@ p {
 
 .left {
 	background: white;
+}
+
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 }
