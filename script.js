@@ -1,5 +1,5 @@
-$("#shareRoundIcons").jsSocials({
-    showLabel: false,
-    showCount: false,
-    shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
-});
+  $('#read-more').on('click', function() {
+    $('#read-more-collapse').toggleClass("uncollapsed");
+    $('#read-more-plus').toggleClass("uncollapsed");
+    $('#read-more-minus').toggleClass("uncollapsed");
+  });
