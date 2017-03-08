@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#button1").click(function(){
+        $("#method1").toggle();
+  });
+   $("#button2").click(function(){
+        $("#method2").toggle();
+  });
+  $("#button3").click(function(){
+        $("#method3").toggle();
+  }); 
+});
