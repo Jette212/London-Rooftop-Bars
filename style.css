@@ -6,8 +6,6 @@ h1 {
 	border: 7px double #008000;
 	margin-right: 50px;
 	margin-left: 50px;
-
-
 }
 
 body {
@@ -20,7 +18,7 @@ body {
 
 
 p {
-  margin: 20px;
+  margin: 40px;
   position: center;
 }
 
@@ -33,7 +31,7 @@ h2{
 	font-size: 1.5em;
 	text-align: center;
 	font-style: italic;
-	margin: 20px;
+	margin: 40px;
 	color: green;
 }
 .p1{
@@ -67,4 +65,10 @@ h3{
 	font-size: 2em;
 	text-align: center;
 	background-color: #9fff80;
+}
+
+.navbar {                   
+	font-family:    Garamond;
+	font-size:      1.5em;
+	margin: 0 auto;
 }
