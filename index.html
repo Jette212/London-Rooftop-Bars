@@ -122,7 +122,29 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoRQbGvWjl2V2hZX7YLduPSQw5mpR6iG0&callback=myMap"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoRQbGvWjl2V2hZX7YLduPSQw5mpR6iG0&callback=myMap"></script>-->
+
+ < <script>
+      function initMap() {
+        var uluru = {lat: 51.5033, lng: 0.1195};
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+          zoom: 4,
+          center: uluru
+        });
+        new google.maps.Marker({
+          position: uluru,
+          map: map 
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoRQbGvWjl2V2hZX7YLduPSQw5mpR6iG0&callback=initMap">
+    </script> 
+
+    <markers.forEach(function(i) { new google.maps.Marker({
+          position: i,
+          map: map>
+        }); }) 
 
 </body>
 </html>
