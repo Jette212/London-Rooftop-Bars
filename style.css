@@ -20,7 +20,8 @@ body {
 
 
 p {
-  color: green;
+  margin: 20px;
+  position: center;
 }
 
 .left {
@@ -32,6 +33,8 @@ h2{
 	font-size: 1.5em;
 	text-align: center;
 	font-style: italic;
+	margin: 20px;
+	color: green;
 }
 .p1{
 	text-align: center;
