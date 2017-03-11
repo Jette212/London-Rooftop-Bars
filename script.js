@@ -12,3 +12,7 @@ $(document).ready(function(){
         $("#method3").toggle();
   }); 
 });
+
+$("#share").jsSocials({
+    shares: ["twitter", "pinterest", "stumbleupon", "whatsapp"]
+});
