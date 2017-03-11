@@ -1,10 +1,13 @@
 $(document).ready(function(){
+    $("#method1").hide();
     $("#button1").click(function(){
-        $("#method1").toggle();
+        $("#method1").show();
   });
+   $("#method2").hide();
    $("#button2").click(function(){
         $("#method2").toggle();
   });
+  $("#method3").hide();
   $("#button3").click(function(){
         $("#method3").toggle();
   }); 
