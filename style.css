@@ -2,7 +2,7 @@ h1 {
 	font-family: 'Lobster', cursive;
 	font-size: 2em;
 	text-align: center;
-	border: 7px double #008000;
+	border: 7px double #4dff4d;
 	margin-right: 50px;
 	margin-left: 50px;
 }
@@ -30,12 +30,14 @@ h2{
 	font-size: 1.5em;
 	text-align: center;
 	font-style: italic;
+	font-style: bold;
 	margin: 40px;
-	color: green;
+	color: #858585;
 }
 .p1{
 	text-align: center;
 	font-size: 1.2em
+	color: #858585;
 }
 
 .bars {
@@ -67,7 +69,7 @@ h3{
 }
 
 .navbar {                   
-	font-family:    Garamond;
+	font-family:    'Lobster';
 	font-size:      1.5em;
 	margin: 0 auto;
 }
