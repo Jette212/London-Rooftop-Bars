@@ -63,11 +63,13 @@ h3{
 
 #videotitle {
 	border: 5px solid white;
+	padding-top: 5px;
 	font-size: 2em;
 	text-align: center;
 	border: solid;
 	border-color: #4dff4d;
 	background-color: transparent;
+	margin: 5px;
 }
 
 .navbar {                   
@@ -95,4 +97,4 @@ h3{
 .row{ 
 padding: 100px;
 position: center 
-background-color:green;}
+background-color:#F0F0F0;}
