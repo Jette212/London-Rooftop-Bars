@@ -14,7 +14,8 @@ $(document).ready(function(){
 });
 
 $("#share").jsSocials({
-    shares: ["twitter", "pinterest", "stumbleupon", "whatsapp"]
+	showIcon: true,
+    shares: ["twitter", "facebook", "pinterest", "stumbleupon"]
 });
 
 jQuery(function($) {
