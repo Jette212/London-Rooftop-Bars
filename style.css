@@ -17,7 +17,7 @@ body {
 
 
 p {
-  margin: 40px;
+  margin: 10px;
   position: center;
 }
 
@@ -31,7 +31,7 @@ h2{
 	text-align: center;
 	font-style: italic;
 	font-style: bold;
-	margin: 40px;
+	margin: 10px;
 	color: #858585;
 }
 .p1{
@@ -59,6 +59,7 @@ h3{
 	padding: 30px, 70px, 30px, 70px;
 	margin: auto;
 	border: 10px solid white;
+	margin-top:20px;
 }
 
 #videotitle {
@@ -66,10 +67,9 @@ h3{
 	padding-top: 5px;
 	font-size: 2em;
 	text-align: center;
-	border: solid;
-	border-color: #4dff4d;
+	border: double solid;
+	border-color: white;
 	background-color: transparent;
-	margin: 5px;
 }
 
 .navbar {                   
