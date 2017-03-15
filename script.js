@@ -14,7 +14,7 @@ $(document).ready(function(){
 });
 
 $("#share").jsSocials({
-    shares: ["twitter", "pinterest", "stumbleupon", "whatsapp"]
+    shares: ["twitter", "facebook", "pinterest", "stumbleupon"]
 });
 
 jQuery(function($) {

@@ -2,13 +2,13 @@ h1 {
 	font-family: 'Lobster', cursive;
 	font-size: 2em;
 	text-align: center;
-	border: 7px double #4dff4d;
+	border: 7px double white;
 	margin-right: 50px;
 	margin-left: 50px;
 }
 
 body {
-  background: white;
+  background:#F0F0F0  ;
 }
 
 .item img {
@@ -17,12 +17,12 @@ body {
 
 
 p {
-  margin: 40px;
-  position: center;
+  margin: 10px;
+  text-align: justify;
 }
 
 .left {
-	background: white;
+	background: #F0F0F0 ;
 }
 
 h2{
@@ -31,7 +31,7 @@ h2{
 	text-align: center;
 	font-style: italic;
 	font-style: bold;
-	margin: 40px;
+	margin: 10px;
 	color: #858585;
 }
 .p1{
@@ -55,18 +55,20 @@ h3{
 }
 
 .recipe {
-	color: #80005e;
+	color: #858585;
 	padding: 30px, 70px, 30px, 70px;
 	margin: auto;
 	border: 10px solid white;
+	margin-top:20px;
 }
 
 #videotitle {
 	border: 5px solid white;
+	padding-top: 5px;
 	font-size: 2em;
 	text-align: center;
-	border: solid;
-	border-color: #4dff4d;
+	border: double solid;
+	border-color: white;
 	background-color: transparent;
 }
 
@@ -81,7 +83,32 @@ h3{
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
 }
-.googleMap {width: 100%; height: 400px
+
+<<<<<<< HEAD
+=======
+#map_wrapper {
+    height: 1px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
 
 }
 
+.img{
+	position: left;
+>>>>>>> origin/master
+}
+.row{ 
+padding: 20px;
+position: center 
+background-color:#F0F0F0;}
+
+.jssocials-share-link { border-radius: 50%; }
+
+#about{
+	text-align: center;
+	margin: 100px;
+	font-size: 1.5em;
+}
